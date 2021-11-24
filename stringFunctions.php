@@ -18,6 +18,7 @@
         echo str_repeat($nam,2)."<br>"; # hello world quickhello world quick
         echo substr($nam,5,10)."<br>"; # world qui
         echo strchr($nam,"o")."<br>"; # o world quick
+        replace("_"," ",$nam);
     ?>
 </body>
 </html>
